@@ -1,0 +1,30 @@
+/*this is a header file. Every C++ code starts with this header file.
+The iostream headerfile means i - input, o - output and it allows for us to print
+the cout on the screen. 
+TEST - delete the line #include <iostream> and see what happens? Ans: the compiler
+does not recognise cout.
+With the angle brackets (< >), these indicate to the compiler that iostream is
+a header provided with C++.
+*/
+#include <iostream> 
+using namespace std;
+/* what doesusing namespace std;mean? 
+all the names defined in the header file are belong to a space called std.
+*/
+int main()/*this is the header of the main function in the program. it includes
+ two curly brackets and all statements in between.
+ int main()
+    { statements }
+every C++ program MUST have this funciton.
+The int tells the computer that the funciton will be returning an integer.
+ */
+ 
+{
+  //activity 1.a
+  cout << "Hello World" << endl; // the semicolon is a statement terminator
+  cout << "How are you?" << endl; // cout means "console output"
+  //activity 1 d.i leaving lines
+  cout << "Hello, everybody!\nMy name is Ntokozo.\nGoodbye.";
+  return 0;
+}
+
